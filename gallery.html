@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Photo Gallery</h1>
+        <p>Here are some of my favorite moments captured from around the globe. Notice the alternating image border styles!</p>
+        
+        <!-- Parent element sử dụng CSS Grid -->
+        <div class="gallery-grid">
+            <!-- 5 hình ảnh như yêu cầu của đề bài -->
+            <img src="https://picsum.photos/id/1016/400/400" alt="Majestic mountains under a clear sky">
+            <img src="https://picsum.photos/id/1018/400/400" alt="A serene road winding through a forest">
+            <img src="https://picsum.photos/id/1025/400/400" alt="A cute dog sitting in the woods, wrapped in a blanket">
+            <img src="https://picsum.photos/id/1036/400/400" alt="A snowy mountain peak towering above the clouds">
+            <img src="https://picsum.photos/id/1043/400/400" alt="A beautiful fern plant in a dense forest">
+            <img src="https://picsum.photos/id/1050/400/400" alt="A clear view of ocean waves hitting the shore">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Travel the World. Designed for Web Dev Assignment.</p>
+    </footer>
+</body>
+</html>
